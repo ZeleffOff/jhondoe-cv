@@ -8,6 +8,7 @@ import Homepage from "./pages/Homepage";
 import Services from "./pages/Services";
 import Blog from "./pages/Blog";
 import Portfolio from "./pages/Portfolio";
+import Contact from "./pages/Contact";
 
 const router = createBrowserRouter([
   {
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
   {
     path: "/portfolio",
     element: <Portfolio />,
+  },
+  {
+    path: "/contact",
+    element: <Contact />,
   },
 ]);
 
