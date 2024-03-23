@@ -1,0 +1,8 @@
+.navbar-nav .nav-link.active {
+  color: #fff; /* Changer la couleur du lien actif */
+}
+
+.navbar-nav a:hover {
+  transition: all 0.3s ease;
+  color: #fff;
+}

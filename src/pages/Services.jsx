@@ -1,5 +1,5 @@
-import BasePage from "../components/BasePage";
 import { ServiceCard } from "../components/ServiceCard";
+import TopPage from "../components/TopPage";
 
 const services = [
   {
@@ -38,15 +38,16 @@ const services = [
 
 export default function Services() {
   return (
-    <BasePage
-      title={"MON OFFRE DE SERVICES"}
-      description={"Voici les prestations sur lesquelles je peux intervenir."}
-    >
+    <div>
+      <TopPage
+        title={"MON OFFRE DE SERVICES"}
+        description={"Voici les prestations sur lesquelles je peux intervenir."}
+      />
       <div className="services mt-5">
         <div className="container-fluid">
           <div className="row">
             {services.map((service, index) => (
-              <div className="col-12 col-md mb-3 ">
+              <div className="service col-12 col-md mb-3 ">
                 <ServiceCard
                   name={service.name}
                   description={service.description}
@@ -58,6 +59,6 @@ export default function Services() {
           </div>
         </div>
       </div>
-    </BasePage>
+    </div>
   );
 }

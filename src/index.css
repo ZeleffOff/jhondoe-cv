@@ -33,3 +33,12 @@ strong,
 .title {
   font-weight: 600;
 }
+
+.separator {
+  background-color: #0d6cfc;
+  height: 5px;
+  width: 20%;
+  margin: 0;
+  border: none;
+  opacity: 1;
+}

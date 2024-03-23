@@ -1,5 +1,5 @@
 import Article from "../components/Article";
-import BasePage from "../components/BasePage";
+import TopPage from "../components/TopPage";
 
 const articles = [
   {
@@ -48,10 +48,14 @@ const articles = [
 
 export default function Blog() {
   return (
-    <BasePage
-      title={"BLOG"}
-      description={"Retrouvez ici quelques articles sur le développement web."}
-    >
+    <div>
+      <TopPage
+        title={"BLOG"}
+        description={
+          "Retrouvez ici quelques articles sur le développement web."
+        }
+      />
+
       <div className="container mt-5">
         <div className="row justify-content-center">
           {articles.map((article, index) => (
@@ -67,6 +71,6 @@ export default function Blog() {
           ))}
         </div>
       </div>
-    </BasePage>
+    </div>
   );
 }
