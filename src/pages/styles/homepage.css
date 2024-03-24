@@ -18,6 +18,8 @@
 #background {
   z-index: -1;
   position: absolute;
+  top: 0;
+  left: 0;
   background: center / cover url("../../../public/img/hero-bg-mobile.jpg")
     no-repeat;
 }
