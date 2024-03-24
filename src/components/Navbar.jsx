@@ -64,8 +64,8 @@ export default function Navbar() {
             </li>
             <li className="nav-item">
               <a
-                className={`nav-link ${currentUrl === "/legals" && "active"}`}
-                href="/legals"
+                className={`nav-link ${currentUrl === "/blog" && "active"}`}
+                href="/blog"
               >
                 BLOG
               </a>
