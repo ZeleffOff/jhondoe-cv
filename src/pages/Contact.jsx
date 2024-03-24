@@ -28,7 +28,7 @@ export default function Contact() {
             <form>
               <div className="form-group mb-3">
                 <input
-                  type="name"
+                  type="text"
                   className="form-control"
                   id="name"
                   aria-describedby="name"
@@ -46,7 +46,7 @@ export default function Contact() {
               </div>
               <div className="form-group mb-3">
                 <input
-                  type="numero"
+                  type="number"
                   className="form-control"
                   id="numero"
                   aria-describedby="numero"
@@ -55,7 +55,7 @@ export default function Contact() {
               </div>
               <div className="form-group mb-3">
                 <input
-                  type="sujet"
+                  type="text"
                   className="form-control"
                   id="sujet"
                   aria-describedby="sujet"
@@ -98,7 +98,6 @@ export default function Contact() {
               <iframe
                 title="map"
                 src="https://maps.google.com/maps?q=manhattan&t=&z=13&ie=UTF8&iwloc=&output=embed"
-                frameborder="0"
                 style={{
                   border: "0",
                 }}
