@@ -46,10 +46,9 @@ export default function Homepage() {
 
           <div className="col-12 col-md-6">
             <img
-              className="rounded"
+              className="rounded w-100"
               src="./img/john-doe-about.jpg"
               alt="Jhon Doe"
-              width={"100%"}
             />
 
             <h2 className="title mt-3">Mes compétences</h2>
