@@ -4,7 +4,7 @@ const arrow = <i class="fa-solid fa-chevron-right" style={{ color: "blue" }} />;
 
 export default function Footer() {
   return (
-    <footer className="py-4">
+    <footer className="pt-4">
       <div className="container">
         <div className="row">
           <div className="col-md-3">
@@ -96,11 +96,14 @@ export default function Footer() {
                 <a href="/blog">{arrow} Vendre ses produits sur le web</a>
               </li>
               <li className="text">
-                <a href="/blog">{arrow} Se positionner sur Google²</a>
+                <a href="/blog">{arrow} Se positionner sur Google</a>
               </li>
             </ul>
           </div>
         </div>
+      </div>
+      <div className="bottom d-flex align-items-center justify-content-center p-3">
+        <p className="m-0">Designed by John Doe</p>
       </div>
     </footer>
   );
