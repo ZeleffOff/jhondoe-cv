@@ -103,7 +103,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="bottom d-flex align-items-center justify-content-center p-3">
-        <p className="m-0">Designed by John Doe</p>
+        <p className="m-0">© Designed by John Doe</p>
       </div>
     </footer>
   );
