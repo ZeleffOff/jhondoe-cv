@@ -4,7 +4,7 @@ const arrow = <i class="fa-solid fa-chevron-right" style={{ color: "blue" }} />;
 
 export default function Footer() {
   return (
-    <footer className="pt-4">
+    <footer className="pt-4 mt-4">
       <div className="container">
         <div className="row">
           <div className="col-md-3">

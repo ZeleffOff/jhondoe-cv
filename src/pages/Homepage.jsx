@@ -6,7 +6,10 @@ export default function Homepage() {
     <div className="homepage">
       <div id="background" className="h-100 w-100"></div>
 
-      <section className="hero mb-4 container d-flex align-items-center justify-content-center text-center">
+      <section
+        className="hero mb-4 container d-flex align-items-center justify-content-center text-center"
+        style={{ minHeight: "100vh" }}
+      >
         <div>
           <h1 className="mb-3 display-2" style={{ fontWeight: "bold" }}>
             Bonjour, je suis Jhon Doe
@@ -20,7 +23,7 @@ export default function Homepage() {
         </div>
       </section>
 
-      <section className="border container about p-4">
+      <section id="about" className="container p-4 rounded">
         <div className="row">
           <div className="col-12 col-md-6">
             <h2 className="title">A propos</h2>
